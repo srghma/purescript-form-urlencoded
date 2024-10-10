@@ -4,13 +4,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/purescript-contrib/purescript-form-urlencoded.git"
-  },
-  "ignore": [
-    "**/.*",
-    "bower_components",
-    "node_modules",
-    "output",
-    "bower.json",
-    "package.json"
-  ]
+  }
 }
