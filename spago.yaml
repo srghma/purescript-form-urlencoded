@@ -1,0 +1,26 @@
+package:
+  name: form-urlencoded
+  publish:
+    license: BSD-3-Clause
+    version: 7.0.0
+    location:
+      githubOwner: purescript-contrib
+      githubRepo: purescript-form-urlencoded
+  dependencies:
+    - foldable-traversable
+    - js-uri
+    - maybe
+    - newtype
+    - prelude
+    - strings
+    - tuples
+  test:
+    main: Test.Main
+    dependencies:
+      - assert
+      - console
+      - effect
+workspace:
+  extraPackages: {}
+  packageSet:
+    registry: 60.5.0
